@@ -65,11 +65,16 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 
 console.log('Hello');
 console.log('Ceci est un essai de webpack');
-
+console.log('Ceci est un console log dans le fichier index');
+var test = 3;
+console.log(test);
 
 /***/ })
 /******/ ]);
